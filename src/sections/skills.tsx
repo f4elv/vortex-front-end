@@ -1,9 +1,10 @@
 import Carrossel from "@/components/Carrossel";
-
 import Creative from "@/components/slides/creative";
 import Landing from "@/components/slides/landing";
 import Dashboard from "@/components/slides/dashboard";
 import Interactive from "@/components/slides/interactive";
+
+import Light from "@/components/ui/light";
 
 export default function Page() {
   const slides = [
@@ -15,8 +16,8 @@ export default function Page() {
 
   return (
     <section className="relative w-screen h-screen overflow-hidden">
-        <Carrossel slides={slides} />
-            <div className="absolute bottom-0 z-10 w-screen h-5 bg-gradient-to-t from-white/20 to-transparent mt-2 animate-pulse"></div>
+      <Carrossel slides={slides} />
+      <Light />
     </section>
   )
 }

@@ -33,7 +33,7 @@ export default function Carrossel({ slides }: CarrosselProps) {
               className="
                 relative min-w-full h-screen flex items-center justify-center cursor-pointer select-none"
             >
-              <div className="z-10 w-full h-full flex items-center justify-center px-4">
+              <div className="w-full h-full flex items-center justify-center px-32">
                 {Component}
               </div>
             </div>

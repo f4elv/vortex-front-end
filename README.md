@@ -8,5 +8,5 @@ UI colors:
 font:
     primary: 'Aldrich'
 
-padding padrão: 32px
+padding padrão: 64px
 

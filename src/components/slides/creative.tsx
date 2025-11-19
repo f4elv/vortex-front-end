@@ -1,9 +1,10 @@
 import RotatingText from '../RotatingText';
+import Blur from '../ui/blur';
 
 export default function Creative() {
   return (
-    <section className="w-screen h-screen text-center flex flex-col gap-6 items-center justify-center px-12">
-    <div className="absolute w-[65%] h-[60%] rounded-full bg-purple-600 opacity-30 blur-[100px] -z-10"></div>
+    <section className="w-screen h-screen text-center flex flex-col gap-6 items-center justify-center px-32">
+    <Blur />
       <div className="max-w-5xl w-full items-center">
             <h1 className="text-2xl sm:text-5xl md:text-6xl font-bold flex flex-wrap gap-3 justify-center items-center mb-6">
                 Sites 
