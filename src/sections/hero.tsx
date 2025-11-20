@@ -31,7 +31,7 @@ export default function Hero() {
                     variant="primary"
                     className="mt-4 pointer-events-auto"
                     onClick={() => {
-                        document.getElementById('Skills')?.scrollIntoView({ behavior: 'smooth' });
+                        document.getElementById('About')?.scrollIntoView({ behavior: 'smooth' });
                     }}  
                     >
                         <span>↓</span>Entre no fluxo

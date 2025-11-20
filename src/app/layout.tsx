@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Aldrich } from "next/font/google";
+// import ScrollMotion from "@/components/ScrollMotion";
 
 export const metadata: Metadata = {
   title: "Vortex",
@@ -17,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={aldrich.className}>
       <body className="bg-stone-950 text-stone-100">
+        {/* <ScrollMotion /> */}
         {children}
       </body>
     </html>
