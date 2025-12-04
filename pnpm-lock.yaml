@@ -41,9 +41,6 @@ importers:
       tailwind-merge:
         specifier: ^3.4.0
         version: 3.4.0
-      three:
-        specifier: ^0.181.1
-        version: 0.181.1
       zod:
         specifier: ^4.1.13
         version: 4.1.13
